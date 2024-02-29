@@ -72,6 +72,7 @@
     font-family: 'Manrope_500';
 }
 .btn_blue:hover{
+    cursor: pointer;
     box-shadow: -1.5px 2.5px 9px 10px #879bff3c;
 }
 .btn_white{
@@ -85,6 +86,7 @@
     font-family: 'Manrope_500';
 }
 .btn_white:hover{
+    cursor: pointer;
     box-shadow: -1.5px 2.5px 9px 10px #ffffff3c;
 }
 .nav_bottom{
@@ -104,10 +106,147 @@
 /* main */
 .main_text{
     margin-left: 95px;
+    margin-top: 100px;
 }
 .main_text h2{
     color:rgba(255, 255, 255, 1);
     font-family: 'Manrope_700';
     font-size: 55px;
-    
+}
+.overflow{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.overflow .block{
+    width: 406px;
+    border:1px solid rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 132px;
+    margin-bottom: 100px;
+}
+.block_top h2{
+    font-size: 32px;
+    font-family: 'Manrope_700';
+    color:#fff; 
+    margin-left: 20px;
+}
+.block_midle{
+    width: 305px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'Manrope_500';
+    color:#fff;
+    line-height: 28px;
+}
+.block_bottom button{
+display: flex;
+align-items:center;
+gap: 5px;
+border:2px solid white;
+transition: all 0.5s ease;
+border-radius:50px;
+font-family: 'Manrope_500';
+color:#fff;
+padding: 14px 20px 14px 20px;
+background-color:rgba(0, 0, 0, 0);
+margin-left: 20px;
+margin-bottom: 40px;
+}
+.block_bottom button:hover{
+    cursor: pointer;
+    box-shadow: -1.5px 2.5px 9px 10px #ffffff3c;
+}
+.top h1{
+    color:rgba(255, 255, 255, 1);  
+    font-family: 'Manrope_700'; 
+    font-size: 55px;
+    margin-left: 100px;
+  }
+  .bottom .img{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 5px;
+  }
+.main_img img{
+    width: 100%;
+    margin: 100px auto;
+}
+.card{
+    margin-left: 100px;
+}
+.card_text{
+    margin-top: -50px;
+    width: 84%;
+    line-height: 44px;
+    margin-bottom: 35px;
+}
+.card_text p{
+    font-size: 22px;
+    font-family: 'Manrope_700';
+    color:#fff;
+}
+/* footer */
+footer{
+    border-top: 1px solid grey;
+    margin: 100px 0px 100px 0px;
+}
+.footer_top{
+    margin-top:100px;
+    margin-left: 100px;
+    display: flex;
+    align-items:baseline;
+    gap: 70px;
+
+}
+.card1 p{
+    font-family: 'Manrope_500';
+    font-size: 16px;
+    color:gray;
+}
+.card_input{
+    width: 363px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_input input{
+    padding: 10px 15px;
+    border:1px solid rgba(255, 255, 255, 1);
+    background-color:rgba(255, 0, 0, 0);
+    border-radius:50px;
+    color:#fff;
+    font-family: 'Manrope_700';
+    margin-bottom: 15px;
+}
+.card1{
+    margin-right: 101px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card2 p{
+    color:grey;
+    font-family: 'Manrope_700';
+    font-size: 20px;
+}
+.card2 a{
+    color:#fff;
+    transition: all 0.5s ease;
+    font-size: 16px;
+}
+.card2 a:hover{
+    color:rgba(255, 255, 255, 0.464); 
+}
+
+.footer_bottom{
+    margin: 52px 0px 0px 100px;
+    color:gray;
+    font-family: 'Manrope_500';
 }
