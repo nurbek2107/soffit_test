@@ -1,18 +1,6 @@
-/* manrope-500 - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Manrope_500';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../css/font_Manrope/manrope-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* manrope-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Manrope_700';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../css/font_Manrope/manrope-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+
+  .header_nav{
+    position: relative;
   }
 .card_nav{
     display: flex;
@@ -20,6 +8,7 @@
     gap: 717px;
     align-items: center;
     margin-top: 65px;
+    margin-bottom: 85px;
 }
 .card_right{
     display: flex;
@@ -51,8 +40,74 @@
 .right_lag span:hover{
     color: #fff;
 }
-.card_img img{
+.img_nav img{
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
+}
+.btn{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+    position: absolute;
+    top: 111px;
+    left: 100px;
+}
+.btn button{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+.btn_blue{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    background-color: rgba(0, 64, 221, 1);
+    border:none;
+    padding: 15px 20px 15px 20px;
+    border-radius:50px;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Manrope_500';
+}
+.btn_blue:hover{
+    box-shadow: -1.5px 2.5px 9px 10px #879bff3c;
+}
+.btn_white{
+    background-color: rgba(255, 255, 255, 1);
+    border:none;
+    padding: 15px 20px 15px 20px;
+    border-radius:50px;
+    transition: all 0.5s ease;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-family: 'Manrope_500';
+}
+.btn_white:hover{
+    box-shadow: -1.5px 2.5px 9px 10px #ffffff3c;
+}
+.nav_bottom{
+    margin-left: 95px;
+    margin-top: 50px;
+}
+.nav_text{
+    width: 76%;
+    line-height: 44px;
+    margin-bottom: 35px;
+}
+.nav_text p{
+    font-size: 22px;
+    font-family: 'Manrope_700';
+    color:#fff;
+}
+/* main */
+.main_text{
+    margin-left: 95px;
+}
+.main_text h2{
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Manrope_700';
+    font-size: 55px;
+    
 }
