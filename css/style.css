@@ -1,0 +1,26 @@
+/* manrope-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope_500';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../css/font_Manrope/manrope-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* manrope-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope_700';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../css/font_Manrope/manrope-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+.card_nav{
+    display: flex;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
