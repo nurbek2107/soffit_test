@@ -259,10 +259,10 @@ footer{
     left: 344px;
     position: absolute;
 }
-.card_img1{
+.card_img11{
     position: relative;
 }
-.card_img1 img{
+.card_img11 img{
     transform: rotate(180deg);
     position: absolute;
     z-index: -10;
@@ -279,20 +279,20 @@ z-index: -10;
     left: 344px;
 }
 
-.card_img3{
+.card_img33{
     position:relative;
     z-index: -10;
     top: 40px;
 }
-.card_img3 img{
+.card_img33 img{
     left: 344px;
     position: absolute;
 }
-.card_img4{
+.card_img44{
     position: relative;
     bottom:-20px;
 }
-.card_img4 img{
+.card_img44 img{
     position: absolute;
     z-index: -10;
     left: -20px;
