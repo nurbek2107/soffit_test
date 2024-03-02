@@ -298,3 +298,51 @@ z-index: -10;
     left: -20px;
     bottom:-150px;
 }
+
+.card_img12{
+    position: relative;
+}
+.card_img12 img{
+    position: absolute;
+    z-index: -10;
+    left: 344px;
+    top: -300px;
+}
+.link_img{
+    position: relative;
+}
+.link_buttom{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 30px;
+    margin-left: 25px;
+    gap: 122px;
+    padding: 1px 20px;
+    backdrop-filter: blur(20px);
+    border-radius: 66px;
+}
+.link_buttom p{ 
+    font-family: 'Manrope_700';
+    font-size: 20px;
+    color: #fff;
+}
+.block_bottom-1 button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+    font-family: 'Manrope_500';
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 16px 10px 16px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 20px;
+}
+.block_bottom-1 button:hover {
+    cursor: pointer;
+    box-shadow: -1.5px 2.5px 9px 10px #ffffff3c;
+}
