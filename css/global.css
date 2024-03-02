@@ -29,7 +29,6 @@ a{
     font-family: 'Manrope_500';
 }
 ::-webkit-scrollbar {
-    width: 10px;
     height: 5px;
   }
   
@@ -37,13 +36,19 @@ a{
   ::-webkit-scrollbar-track {
     background-color:rgba(240, 248, 255, 0);
   }
-   
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #ffffff37; 
     border-radius: 10px;   
   }
   .overflow {
-    width: 100%;
+    display: flex;
+    align-items:center;
     overflow-x: scroll;
+    width: 100%;
+    
+  }
+  .card_owerd{
+    width: 100%;
+    margin: 0 auto;
   }

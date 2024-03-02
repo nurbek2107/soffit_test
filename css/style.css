@@ -15,6 +15,7 @@
     align-items: center;
     gap: 35px;
 }
+
 .card_right li a{
     font-size: 16px;
     color:rgba(255, 255, 255, 0.464);
@@ -44,6 +45,7 @@
     width: 100%;
     margin: 0px auto;
     box-sizing: border-box;
+    z-index: 1;
 }
 .btn{
     display: flex;
@@ -113,11 +115,6 @@
     font-family: 'Manrope_700';
     font-size: 55px;
 }
-.overflow{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
 .overflow .block{
     width: 406px;
     border:1px solid rgba(255, 255, 255, 1);
@@ -175,6 +172,7 @@ margin-bottom: 40px;
 .main_img img{
     width: 100%;
     margin: 100px auto;
+    z-index: 1;
 }
 .card{
     margin-left: 100px;
@@ -192,6 +190,7 @@ margin-bottom: 40px;
 }
 /* footer */
 footer{
+    z-index: 1;
     border-top: 1px solid grey;
     margin: 100px 0px 100px 0px;
 }
@@ -249,4 +248,33 @@ footer{
     margin: 52px 0px 0px 100px;
     color:gray;
     font-family: 'Manrope_500';
+}
+.card_img{
+    position:relative;
+    z-index: -10;
+    top: -940px;
+}
+.card_img img{
+    top: 50px;
+    left: 344px;
+    position: absolute;
+}
+.carf_img1{
+    position: relative;
+}
+.carf_img1 img{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: -10;
+    left: -20px;
+    top: -300px;
+}
+.card_img2{
+    position: relative;
+z-index: -10;
+}
+.card_img2 img{
+    position: absolute;
+    top: -1000px;
+    left: 344px;
 }
