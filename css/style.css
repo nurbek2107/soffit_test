@@ -275,6 +275,6 @@ z-index: -10;
 }
 .card_img2 img{
     position: absolute;
-    top: -1000px;
+    bottom:-600px;
     left: 344px;
 }
