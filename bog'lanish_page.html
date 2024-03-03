@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soffit_web</title>
+    <link rel="icon" href="static/png/favicon.ico">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-carousel@1.2.7/dist/scroll.carousel.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- favicon html -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="header_nav">
+                <div class="card_nav">
+                    <div class="card_left">
+                        <a href="index.html"><img src="static/svg/logo-removebg 1.svg" alt="logo"></a>
+                    </div>
+                    <div class="card_right">
+                        <li><a href="soffit-page.html">Services</a></li>
+                        <li><a href="portfolio_page.html">Portfolio</a></li>
+                        <li><a href="ABOUT_PAGE.html">About us</a></li>
+                        <li><a href="bog'lanish_page.html">Bog’lanish</a></li>
+                        <div class="right_lag">
+                            <span>Uz</span>
+                            <span>Ru</span>
+                            <span>En</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border_nav">
+
+                </div>
+
+            </div>
+            </div>
+        </nav>
+    
+    </header>
+    <main>
+        <div class="container">
+            <div class="main_nav">
+              
+            <div class="main_left">
+                <div class="form-inner">
+                    <form action="echo.htmlacademy.ru" class="login">
+                        <div class="block">
+                        <div class="left">
+                            <label for="pwd">Ism Familiya</label><br>
+                      <div class="field">
+                        <input class="field_1" type="text" placeholder="Ismingini kiriting" style="
+                        padding: 8px;
+                    " required>
+                      </div>
+                      <label for="pwd">Telegram username</label><br>
+                      <div class="field">
+                        <input class="field_3" type="text" placeholder="Username" style="
+                        padding: 8px;
+                    " required>
+                      </div>
+                      <div class="field">
+                        <label for="pwd">Sayni turini tanlang</label><br>
+                        <div  class="custom-select" style="width: 220px;">
+                            <select>
+                              <option value="0">Corparative sayt</option>
+                              <option value="1">kun.uz</option>
+                              <option value="2">yutube</option>
+                              <option value="3">bbc</option>
+                              <option value="4">githup</option>
+                            </select>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="right">
+                        <label for="pwd">Companiyani kiriting</label><br>
+                      <div class="field">
+                        <input class="field_2" type="text" placeholder="Companiya" style="
+                        padding: 8px;
+                    " required>
+                      </div>
+                      <label for="pwd" style="    margin-left: -52px;">Phone number</label><br>
+                      <div class="field">
+                        <input  class="field_4" type="tel" value="+998 " style="
+                        padding: 8px;
+                    " required>
+                      </div>
+                        <label for="pwd" style="margin-left: -84px;">Sayni turini tanlang</label><br>
+                        <div class="card_one">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                              <option value="0">Telegram</option>
+                                    <option value="1">linkeding</option>
+                              <option value="2">dev</option>
+                              <option value="3">instagram</option>
+                              <option value="4">twitter</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="block_bottom">
+                        <label for="pwd">Message</label><br>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                    </div>
+                    <button class="btn_blue">Jo’natish<img src="static/svg/strelka.svg" alt="strelka"></button>
+                    </form>
+                </div>
+                <div class="border_raght"></div>
+             </div>
+                       
+            <div class="main_right">
+                <p class="card_p">Ux & Ui design</p>
+                <p class="card_p1">In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .</p>
+            </div>
+            <div class="card_img45">
+                <img src="static/png/Rectangle (3).png" alt="bacraund">
+            </div>
+        </div>
+        </div>
+    </main>
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select":*/
+        x = document.getElementsByClassName("custom-select");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+          selElmnt = x[i].getElementsByTagName("select")[0];
+          ll = selElmnt.length;
+          /*for each element, create a new DIV that will act as the selected item:*/
+          a = document.createElement("DIV");
+          a.setAttribute("class", "select-selected");
+          a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+          x[i].appendChild(a);
+          /*for each element, create a new DIV that will contain the option list:*/
+          b = document.createElement("DIV");
+          b.setAttribute("class", "select-items select-hide");
+          for (j = 1; j < ll; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function(e) {
+                /*when an item is clicked, update the original select box,
+                and the selected item:*/
+                var y, i, k, s, h, sl, yl;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                sl = s.length;
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < sl; i++) {
+                  if (s.options[i].innerHTML == this.innerHTML) {
+                    s.selectedIndex = i;
+                    h.innerHTML = this.innerHTML;
+                    y = this.parentNode.getElementsByClassName("same-as-selected");
+                    yl = y.length;
+                    for (k = 0; k < yl; k++) {
+                      y[k].removeAttribute("class");
+                    }
+                    this.setAttribute("class", "same-as-selected");
+                    break;
+                  }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+          }
+          x[i].appendChild(b);
+          a.addEventListener("click", function(e) {
+              /*when the select box is clicked, close any other select boxes,
+              and open/close the current select box:*/
+              e.stopPropagation();
+              closeAllSelect(this);
+              this.nextSibling.classList.toggle("select-hide");
+              this.classList.toggle("select-arrow-active");
+            });
+        }
+        function closeAllSelect(elmnt) {
+          /*a function that will close all select boxes in the document,
+          except the current select box:*/
+          var x, y, i, xl, yl, arrNo = [];
+          x = document.getElementsByClassName("select-items");
+          y = document.getElementsByClassName("select-selected");
+          xl = x.length;
+          yl = y.length;
+          for (i = 0; i < yl; i++) {
+            if (elmnt == y[i]) {
+              arrNo.push(i)
+            } else {
+              y[i].classList.remove("select-arrow-active");
+            }
+          }
+          for (i = 0; i < xl; i++) {
+            if (arrNo.indexOf(i)) {
+              x[i].classList.add("select-hide");
+            }
+          }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+        </script>
+</body>
+</html>
